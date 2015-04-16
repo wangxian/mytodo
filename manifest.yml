@@ -1,0 +1,14 @@
+---
+applications:
+  .:
+    instances: 1
+    mem: 256M
+    infra: ap-aws
+    name: mytodo
+    url: ${name}.${target-base}
+    framework:
+      info:
+        exec:
+        description: My Todo List
+        mem: 64M
+      name: node

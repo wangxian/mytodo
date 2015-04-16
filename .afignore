@@ -1,0 +1,4 @@
+# ignore dot files
+.*
+.git/
+.DS_Store

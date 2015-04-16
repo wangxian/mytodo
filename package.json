@@ -1,0 +1,15 @@
+{
+  "name": "xian366",
+  "version": "0.0.1",
+  "dependencies": {
+    "express"      : "",
+    "jade"         : "",
+    "coffee-script": "",
+    "mongoskin"    : ""
+  },
+  "scripts": {"start": "node app.js"},
+  "engines": {
+    "node": "0.8.x",
+    "npm" : "1.1.x"
+  }
+}

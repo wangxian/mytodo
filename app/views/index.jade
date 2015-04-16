@@ -1,0 +1,25 @@
+extend layout
+
+block body
+  .box.post
+    // h2 新增
+    p: input(type="text", placeholder="New Todo List", name="title", class="submit")
+  .box.todos
+    h2.box 待办事项
+    ul
+      li.item
+        正在加载...
+
+    //-
+      ul
+        li.item
+          span.del 安装mongoskin模块，npm install mongoskin
+          span.date (Thu Mar 14 2013 04:28:59)
+          a(href="") 完成
+          a(href="") 删除
+          a(href="") 取消
+        li.item
+          span.new 安装mongoskin模块，npm install mongoskin
+          span (Thu Mar 14 2013 04:28:59)
+          a(href="") 完成
+          a(href="") 恢复

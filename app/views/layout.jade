@@ -1,0 +1,18 @@
+!!! 5
+html(lang="zh-CN")
+  head
+    title My ToDo
+    meta(charset="UTF-8")
+    link(type="text/css", rel="stylesheet", href="/assets/css/reset.css")
+    link(type="text/css", rel="stylesheet", href="/assets/css/app.css")
+    block head
+  body
+  .page
+    .header.box
+      a(href="/"): h1 My ToDo
+    .main.box
+      block body
+    .foot
+      | Copyright &copy; <a href="http://wangxian.me">wangxian.me</a> 木頭 <br />
+      | 一个简易的 todo 程序(方案: appfog+node+coffee+express+mongodb+mongoskin+jade)
+    script(src="/assets/modules/seajs/1.3.1/sea.js", data-main="/assets/modules/app/init.js")
